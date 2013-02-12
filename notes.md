@@ -7,6 +7,7 @@
 ** groupBy
 * Scala collections and iteration
 ** Vector vs List
+* Handling optional values
 
 # References
 * jsureth intro fp
