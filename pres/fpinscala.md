@@ -100,6 +100,27 @@ This form is also used with higher-order functions
 
 The underscore symbol is bound to an input argument
 
+!SLIDE bullets
+
+# Methods vs Functions #
+
+* Methods are defined as part of a class
+
+* Functions are a complete object
+    * Function0, Function1, etc.
+
+!SLIDE code
+
+# Function chaining #
+
+    @@@ scala
+    val multTwo: (Int => Int) = x => x * 2
+
+    val chain = addOne.andThen(multTwo)
+
+    chain(1)
+    4
+
 !SLIDE
 # Scala Collections #
 
